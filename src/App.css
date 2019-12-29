@@ -8,6 +8,7 @@
 }
 .display {
     margin-top: 25px;
+    margin-left: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -21,39 +22,78 @@
     font-size: 5.0rem;
   }
 
-  .specials {
-    border-radius: 360px;
-    background-color: dodgerblue;
-    width: 80px;
-    height: 80px;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: large;
-
+  .left-side {
+      /* border: 1px solid red; */
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 80vh;
   }
 
-  .operators {
-      background-color: darkcyan;
-      border-radius: 360px;
-      width: 80px;
-      height: 80px;
-      color: whitesmoke;
-      font-weight: bold;
-      font-size: large;
+  
+  .special {
+      /* border: 1px dotted blue; */
+      width: 100%;
+      
+    }
+    
+    .specials {
+        border-radius: 360px;
+        background-color: dodgerblue;
+        width: 20%;
+        height: 70px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: large;
+        margin: 5%;
+        
+    }
+    
+    .operator {
+        /* border: 1px solid green; */
+        height: auto;
+      
+        flex-direction: column;
+        display: flex;
+        width: 20%;
+    }
 
+    .operators {
+        background-color: darkcyan;
+        border-radius: 50%;
+        width: 100%;
+   
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: large;
+        height: 70px;
+        margin: 5%;
   }
 
+  .number {
+      /* border: 2px dotted; */
+      width: 100%;
+  }
   .numbers {
-      border-radius: 360px;
+      /* border-radius: 360px; */
       background-color: darkblue;
-      width: 80px;
-      height: 80px;
-      display: inline-flexbox;
+      width: 20%;
+      height: 40px;
+      
       color: whitesmoke;
       font-weight: bold;
       font-size: large;
-
-
+      margin: 5%;
   }
 
+
+  .box-button {
+      /* border: 1px solid; */
+      height: 400px;
+      display: flex;
+      margin: 5%;
+      flex-direction: row;
+      width: 85%;
+  }
 

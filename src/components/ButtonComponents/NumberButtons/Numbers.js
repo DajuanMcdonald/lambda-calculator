@@ -6,9 +6,16 @@ const Numbers = () => {
 
 
   return (
-    number.map(digit => {
-    return <button className="numbers">{digit}</button>
-    })
+
+      <div className="number">
+
+        {number.map(digit => {return <button className="numbers">{digit}</button>})}
+      </div>
+
+
+   
+    
+          
 
   )
 

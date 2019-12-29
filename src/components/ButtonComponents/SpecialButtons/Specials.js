@@ -11,7 +11,12 @@ const Specials = (props) => {
   const [spec, setSpec] = useState(specials);
 
   return (
-  spec.map( s => {return <button className="specials">{s}</button>})
+    <div>
+      
+      {spec.map( s => {return <button className="specials">{s}</button>})}
+
+    </div>
+    
   );
 };
 
