@@ -13,7 +13,7 @@ const Specials = (props) => {
   return (
     <div>
       
-      {spec.map( s => {return <button className="specials">{s}</button>})}
+      {spec.map( s => {return <button key={s} className="specials">{s}</button>})}
 
     </div>
     
