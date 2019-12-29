@@ -24,18 +24,25 @@
   .specials {
     border-radius: 360px;
     background-color: dodgerblue;
+    width: 80px;
+    height: 80px;
 
   }
 
   .operators {
       background-color: darkcyan;
       border-radius: 360px;
+      width: 80px;
+      height: 80px;
   }
 
   .numbers {
       border-radius: 360px;
       background-color: darkblue;
-      width: 45px;
+      width: 80px;
+      height: 80px;
+      display: inline-flexbox;
+
   }
 
 
