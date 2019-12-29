@@ -20,3 +20,13 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  button {
+      border-radius: 360px;
+      background-color: blue;
+      width: 45px;
+    
+
+  }
+
+
