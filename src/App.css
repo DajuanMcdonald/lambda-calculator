@@ -21,12 +21,21 @@
     font-size: 5.0rem;
   }
 
-  button {
-      border-radius: 360px;
-      background-color: blue;
-      width: 45px;
-    
+  .specials {
+    border-radius: 360px;
+    background-color: dodgerblue;
 
+  }
+
+  .operators {
+      background-color: darkcyan;
+      border-radius: 360px;
+  }
+
+  .numbers {
+      border-radius: 360px;
+      background-color: darkblue;
+      width: 45px;
   }
 
 

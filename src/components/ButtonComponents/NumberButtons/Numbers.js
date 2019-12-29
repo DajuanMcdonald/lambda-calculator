@@ -7,7 +7,7 @@ const Numbers = () => {
 
   return (
     number.map(digit => {
-    return <button>{digit}</button>
+    return <button className="numbers">{digit}</button>
     })
 
   )
