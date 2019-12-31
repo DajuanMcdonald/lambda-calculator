@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Display = () => {
+  const [total, setTotal] = useState(0);
   return (
 
-    <div className="display">0</div>
+    <div className="display">{total}</div>
 
   );
 };
