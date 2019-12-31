@@ -1,15 +1,16 @@
 import React, {useState} from "react";
 import {numbers} from "../../../data";
+import NumberButton from "./NumberButton";
 
-const Numbers = (props, index) => {
-  const [number, setNumber] = useState(numbers);
+const Numbers = () => {
+  const [number] = useState(numbers);
 
 
   return (
 
       <div className="number">
 
-        {number.map(digit => {return <button key={digit} className="numbers">{digit}</button>})}
+        {number.map((digit, index) => {return <NumberButton key={index} digit={digit}/> })}
       </div>
 
 
@@ -19,17 +20,6 @@ const Numbers = (props, index) => {
 
   )
 
-}
-
-export const Zero = () => {
-  const [zero, setZero] = useState(numbers[9])
-
-  return (
-    numbers[9]
-    
-    )
-    
-  }
-  console.log(numbers[9]);
+};
 
 export default Numbers;

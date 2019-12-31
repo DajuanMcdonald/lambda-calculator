@@ -1,19 +1,17 @@
 import React, {useState} from "react";
-
-//import any components needed
-
-//Import your array data to from the provided data file
+import SpecialButton from "./SpecialButton";
 import {specials} from "../../../data";
-import Display from "../../DisplayComponents/Display";
-import { render } from "react-dom";
-const Specials = (props) => {
+
+
+const Specials = () => {
   // STEP 2 - add the imported data to state
-  const [spec, setSpec] = useState(specials);
+
+  const [spec] = useState(specials);
 
   return (
     <div>
       
-      {spec.map( s => {return <button key={s} className="specials">{s}</button>})}
+      {spec.map(( s, index) => {return <SpecialButton key={index} s={s} className="specials"/>})}
 
     </div>
     
