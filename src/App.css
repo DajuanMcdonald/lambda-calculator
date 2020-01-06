@@ -25,7 +25,7 @@
   }
 
   .left-side {
-      border: 1px solid deeppink;
+      /*border: 1px solid deeppink;*/
       width: auto;
       display: flex;
       flex-direction: row;
@@ -104,7 +104,7 @@
 
 
   .box-button {
-       border: 5px solid;
+       /*border: 5px solid;*/
       height: 400px;
       display: flex;
       margin: 2%;
