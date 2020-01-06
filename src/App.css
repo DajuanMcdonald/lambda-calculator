@@ -25,7 +25,7 @@
   }
 
   .left-side {
-      /*border: 1px solid deeppink;*/
+      border: 1px solid deeppink;
       width: auto;
       display: flex;
       flex-direction: row;
