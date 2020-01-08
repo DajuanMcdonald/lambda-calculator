@@ -19,17 +19,8 @@ const Numbers = (props, index) => {
 
   )
 
-}
+};
 
-export const Zero = () => {
-  const [zero, setZero] = useState(numbers[9])
-
-  return (
-    numbers[9]
-    
-    )
-    
-  }
-  // console.log(numbers[9]);
+console.log(numbers[9]);
 
 export default Numbers;

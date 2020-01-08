@@ -4,8 +4,8 @@ import React, {useState} from "react";
 
 //Import your array data to from the provided data file
 import {specials} from "../../../data";
-import Display from "../../DisplayComponents/Display";
-import { render } from "react-dom";
+
+
 const Specials = (props,  index) => {
   // STEP 2 - add the imported data to state
   // console.log(props);
